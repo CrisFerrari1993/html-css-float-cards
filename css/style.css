@@ -1,3 +1,4 @@
+/* Main page settings */
 :root {
         font-family: fredoka;
 }
@@ -7,6 +8,7 @@ body {
     background-color: white;
 }
 
+/* head settings */
 .head_container {
     text-align: center;
     margin: 2% 10% 5% 10%;
@@ -23,6 +25,8 @@ body {
     /* debug settings */
     
 }
+
+/* card settings  */
 img{
     float: left;
     max-width: 30%;
@@ -32,7 +36,7 @@ img{
 .card{
     float: left;
     width:calc((100% / 3 - 25px));
-    background-color: rgb(21, 15, 95);
+    background-color: rgb(7, 6, 26);
     color: white;
     margin-bottom: 2%;
     margin: 10px;
@@ -54,6 +58,8 @@ img{
 .profession{
     margin: 10px 0 0 0;
 }
+/* Clear both settings */
+
 .card_info::after{
     content: '';
     display: table;
