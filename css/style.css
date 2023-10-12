@@ -30,23 +30,22 @@ body{
     margin-right: 10px;
 }
 .email{
+    line-height: 33%;
     color: aqua;
-    vertical-align: middle;
+    display: block;
 }
 .profession{
-    color: rgb(255, 255, 255);
-    vertical-align: middle;
+    line-height: 33%;
+    color: white;
+    display: block;
 }
 .cards_name {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    color: rgb(255, 255, 255);
-    font-weight:bolder ;
-    vertical-align: middle; 
+    line-height: 33%;
+    color: white;
+    display: block;
 }
 
 .card {
-    line-height: 100%;
     float: left;
     margin-right: 20px;
     background-color: rgb(12, 12, 46);
