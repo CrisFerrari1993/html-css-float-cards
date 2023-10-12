@@ -1,0 +1,67 @@
+/* Main page settings */
+:root{
+    font-family: 'Fredoka', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+body{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main_container {
+    padding: 0 10% 0 10% ;
+}
+/* Title and paragraph settings */
+.title_container {
+    text-align: center;
+    margin-bottom: 5%;
+}
+#title{
+    font-weight: bolder;
+    color: rgb(250, 38, 154);
+}
+/* Cards section settings */
+.row{
+    margin-top: 2%;
+}
+.imgs{
+    float: left;
+    height: 100%;
+    width: 30%;
+    margin-right: 10px;
+}
+.email{
+    color: aqua;
+    vertical-align: middle;
+}
+.profession{
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+}
+.cards_name {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: rgb(255, 255, 255);
+    font-weight:bolder ;
+    vertical-align: middle; 
+}
+
+.card {
+    line-height: 100%;
+    float: left;
+    margin-right: 20px;
+    background-color: rgb(12, 12, 46);
+    text-decoration: none;
+    height: 100px;
+    width: calc((100% / 3) - 20px);
+}
+.row::after{ 
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 3%;
+}
+.card::after {
+    content: "";
+    display: table;
+    clear: both;
+}
