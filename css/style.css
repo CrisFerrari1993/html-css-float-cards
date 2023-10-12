@@ -9,6 +9,7 @@ body {
 
 .head_container {
     text-align: center;
+    margin: 2% 10% 5% 10%;
 }
 
 .title{
@@ -16,11 +17,9 @@ body {
     margin-bottom: 5%;
 }
 
-.text {
-    margin: 0 15% 5% 15%;
-}
 .main_container{
-    margin: 0 15% 0 15%;
+    padding: 0%;
+    margin: 2% 10%;
     /* debug settings */
     
 }
@@ -28,31 +27,32 @@ img{
     float: left;
     max-width: 30%;
     max-height: 30%;
+    margin-right: 5px;
 }
 .card{
     float: left;
-    box-sizing: content-box;
-    max-width: calc((100% / 3) - 10px);
-    max-height: 50%;
-    margin-right: 10px;
+    width:calc((100% / 3 - 25px));
     background-color: rgb(21, 15, 95);
     color: white;
     margin-bottom: 2%;
+    margin: 10px;
 }
 .card_info{
     float: left;
+    padding: 2%;
 }
 .name{
-    margin: 10px 0 0 0px;
+    margin: 10px 0 0 0 ;
 }
 .mail{
     color: aquamarine;
     text-decoration: none;
     min-width: fit-content;
-    margin: 7px 0 0 0px;
+    margin:10px 0 0 0;
+
 }
 .profession{
-    margin: 7px 0 0 0px;
+    margin: 10px 0 0 0;
 }
 .card_info::after{
     content: '';
