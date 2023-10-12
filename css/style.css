@@ -1,66 +1,71 @@
-/* Main page settings */
-:root{
-    font-family: 'Fredoka', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+:root {
+        font-family: fredoka;
 }
-body{
-    border: 0;
+body {
     margin: 0;
-    box-sizing: border-box;
-}
-.main_container {
-    padding: 0 10% 0 10% ;
-}
-/* Title and paragraph settings */
-.title_container {
-    text-align: center;
-    margin-bottom: 5%;
-}
-#title{
-    font-weight: bolder;
-    color: rgb(250, 38, 154);
-}
-/* Cards section settings */
-.row{
-    margin-top: 2%;
-}
-.imgs{
-    float: left;
-    height: 100%;
-    width: 30%;
-    margin-right: 10px;
-}
-.email{
-    line-height: 33%;
-    color: aqua;
-    display: block;
-}
-.profession{
-    line-height: 33%;
-    color: white;
-    display: block;
-}
-.cards_name {
-    line-height: 33%;
-    color: white;
-    display: block;
+    padding: 0;
+    background-color: white;
 }
 
-.card {
-    float: left;
-    margin-right: 20px;
-    background-color: rgb(12, 12, 46);
-    text-decoration: none;
-    height: 100px;
-    width: calc((100% / 3) - 20px);
+.head_container {
+    text-align: center;
 }
-.row::after{ 
-    content: "";
+
+.title{
+    color: rgb(241, 21, 131);
+    margin-bottom: 5%;
+}
+
+.text {
+    margin: 0 15% 5% 15%;
+}
+.main_container{
+    margin: 0 15% 0 15%;
+    /* debug settings */
+    
+}
+img{
+    float: left;
+    max-width: 30%;
+    max-height: 30%;
+}
+.card{
+    float: left;
+    box-sizing: content-box;
+    max-width: calc((100% / 3) - 10px);
+    max-height: 50%;
+    margin-right: 10px;
+    background-color: rgb(21, 15, 95);
+    color: white;
+    margin-bottom: 2%;
+}
+.card_info{
+    float: left;
+}
+.name{
+    margin: 10px 0 0 0px;
+}
+.mail{
+    color: aquamarine;
+    text-decoration: none;
+    min-width: fit-content;
+    margin: 7px 0 0 0px;
+}
+.profession{
+    margin: 7px 0 0 0px;
+}
+.card_info::after{
+    content: '';
     display: table;
     clear: both;
-    margin-bottom: 3%;
 }
-.card::after {
-    content: "";
+.card::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.main_container::after{
+    content: '';
     display: table;
     clear: both;
 }
