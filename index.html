@@ -1,79 +1,84 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
-    <title>Float_Cards</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Indie+Flower&family=Roboto:wght@100;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Floating cards</title>
 </head>
 <body>
-
-    <!-- Head page  -->
-   
-    <div class="head_container">
-        <h1 class="title">Meet Our Team</h1>
-        <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium reprehenderit quo nesciunt eligendi consequuntur doloribus maxime ea modi quaerat commodi facere, provident quibusdam error explicabo mollitia! Maxime recusandae totam soluta!</p>
-    </div>
-   
-   <!-- Main with float fards -->
-
-    <div class="main_container">
-        <div class="card">
-            <img src="img/male1.png" alt="Mario Bianchi">
-            <div class="card_info">
-                <h3 class="name">MARIO BIANCHI</h3>
-                <p class="profession">Designer</p>
-                <p class="mail">mariobianchi@team.com</p>
-            </div>    
-        </div>
-        <div class="card">
-            <img src="img/female1.png" alt="Mario Bianchi">
-            <div class="card_info">
-                <h3 class="name">LAURA ROSSI</h3>
-                <p class="profession">Front-end Developer</p>
-                <p class="mail">mariobianchi@team.com</p>
+    <!-- Header page & title -->
+    <header>
+        <h1 class="title">Meet our team</h1>
+        <p class="text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, culpa vitae temporibus porro suscipit molestias, consectetur quia corporis neque dolor alias maxime voluptatum minus dicta soluta ipsam tempore ad tenetur!
+        </p>
+    </header>
+    <main>
+    <!-- Floating cards section -->
+    <!-- 1st row -->
+        <div class="section_top">
+            <!-- Card -->
+            <div class="card">
+                <img src="img/male1.png" alt="Mario Bianchi">
+                <div class="card_info">
+                    <h3 class="name">MARIO BIANCHI</h3>
+                    <p class="profession">Designer</p>
+                    <a href="#">mariobianchi@team.com</a>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="card">
+                <img src="img/female1.png" alt="Sara Rossi">
+                <div class="card_info">
+                    <h3 class="name">SARA ROSSI</h3>
+                    <p class="profession">Front-end Develoer</p>
+                    <a href="#">sararossi@team.com</a>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="card">
+                <img src="img/male2.png" alt="Giorgio Verdi">
+                <div class="card_info">
+                    <h3 class="name">GIORGIO VERDI</h3>
+                    <p class="profession">Back-end Developer</p>
+                    <a href="#">giorgioverdi@team.com</a>
+                </div>
             </div>
         </div>
-        <div class="card">
-            <img src="img/male2.png" alt="Mario Bianchi">
-            <div class="card_info">
-                <h3 class="name">GIORGIO VERDI</h3>
-                <p class="profession">Back-end Developer</p>
-                <p class="mail">mariobianchi@team.com</p>
+        <!-- 2nd row -->
+        <div class="section_down">
+            <!-- Card -->
+            <div class="card">
+                <img src="img/female2.png" alt="Marta Ipsum">
+                <div class="card_info">
+                    <h3 class="name">SARA IPSUM</h3>
+                    <p class="profession"> SEO Specialist</p>
+                    <a href="#">martaipsum@team.com</a>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="card">
+                <img src="img/male3.png" alt="Roberto Lorem">
+                <div class="card_info">
+                    <h3 class="name">ROBERTO LOREM</h3>
+                    <p class="profession">Project Manager</p>
+                    <a href="#">robertolorem@team.com</a>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="card">
+                <img src="img/female3.png" alt="Mario Bianchi">
+                <div class="card_info">
+                    <h3 class="name">DANIELA AMET</h3>
+                    <p class="profession">Analyst</p>
+                    <a href="#">danielaamet@team.com</a>
+                </div>
             </div>
         </div>
-    </div>
-   
-    <!-- Second Raw -->
-   
-    <dir class="main_container">
-        <div class="card">
-            <img src="img/female2.png" alt="Mario Bianchi">
-            <div class="card_info">
-                <h3 class="name">MARTA IPSUM</h3>
-                <p class="profession">SEO Specialist</p>
-                <p class="mail">martaispum@team.com</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="img/male3.png" alt="Mario Bianchi">
-            <div class="card_info">
-                <h3 class="name">ROBERTO LOREM</h3>
-                <p class="profession">Project Managar</p>
-                <p class="mail">robertolorem@team.com</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="img/female3.png" alt="Mario Bianchi">
-            <div class="card_info">
-                <h3 class="name">DANIELA AMET</h3>
-                <p class="profession">Analist</p>
-                <p class="mail">danielaamet@team.com</p>
-            </div>
-        </div>
-    </dir>
+    </main>
 </body>
 </html>
